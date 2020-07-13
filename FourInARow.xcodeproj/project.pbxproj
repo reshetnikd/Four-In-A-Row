@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35A257FE24BC92FC00753A59 /* Four-In-A-Row.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four-In-A-Row.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A257FE24BC92FC00753A59 /* FourInARow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourInARow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A2580124BC92FC00753A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A2580324BC92FC00753A59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		35A2580524BC92FC00753A59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		35A257F524BC92FC00753A59 = {
 			isa = PBXGroup;
 			children = (
-				35A2580024BC92FC00753A59 /* Four-In-A-Row */,
+				35A2580024BC92FC00753A59 /* FourInARow */,
 				35A257FF24BC92FC00753A59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		35A257FF24BC92FC00753A59 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35A257FE24BC92FC00753A59 /* Four-In-A-Row.app */,
+				35A257FE24BC92FC00753A59 /* FourInARow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35A2580024BC92FC00753A59 /* Four-In-A-Row */ = {
+		35A2580024BC92FC00753A59 /* FourInARow */ = {
 			isa = PBXGroup;
 			children = (
 				35A2580124BC92FC00753A59 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				35A2580C24BC92FD00753A59 /* LaunchScreen.storyboard */,
 				35A2580F24BC92FD00753A59 /* Info.plist */,
 			);
-			path = "Four-In-A-Row";
+			path = FourInARow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35A257FD24BC92FC00753A59 /* Four-In-A-Row */ = {
+		35A257FD24BC92FC00753A59 /* FourInARow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35A2581224BC92FD00753A59 /* Build configuration list for PBXNativeTarget "Four-In-A-Row" */;
+			buildConfigurationList = 35A2581224BC92FD00753A59 /* Build configuration list for PBXNativeTarget "FourInARow" */;
 			buildPhases = (
 				35A257FA24BC92FC00753A59 /* Sources */,
 				35A257FB24BC92FC00753A59 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Four-In-A-Row";
+			name = FourInARow;
 			productName = "Four-In-A-Row";
-			productReference = 35A257FE24BC92FC00753A59 /* Four-In-A-Row.app */;
+			productReference = 35A257FE24BC92FC00753A59 /* FourInARow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 35A257F924BC92FC00753A59 /* Build configuration list for PBXProject "Four-In-A-Row" */;
+			buildConfigurationList = 35A257F924BC92FC00753A59 /* Build configuration list for PBXProject "FourInARow" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35A257FD24BC92FC00753A59 /* Four-In-A-Row */,
+				35A257FD24BC92FC00753A59 /* FourInARow */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Four-In-A-Row/Info.plist";
+				INFOPLIST_FILE = FourInARow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.stanford.Four-In-A-Row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -302,7 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Four-In-A-Row/Info.plist";
+				INFOPLIST_FILE = FourInARow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,14 +310,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.stanford.Four-In-A-Row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35A257F924BC92FC00753A59 /* Build configuration list for PBXProject "Four-In-A-Row" */ = {
+		35A257F924BC92FC00753A59 /* Build configuration list for PBXProject "FourInARow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35A2581024BC92FD00753A59 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35A2581224BC92FD00753A59 /* Build configuration list for PBXNativeTarget "Four-In-A-Row" */ = {
+		35A2581224BC92FD00753A59 /* Build configuration list for PBXNativeTarget "FourInARow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35A2581324BC92FD00753A59 /* Debug */,
